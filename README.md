@@ -28,9 +28,9 @@ Após a instalação das dependências, inicie o servidor rodando o comando abai
 php -S localhost:8000 -t public
 ```
 
-Acessando <b>localhost:8000</b> você verá o projeto rodando.
+> Acessando <b>localhost:8000</b> você verá o projeto rodando.
 
-Você poder verifacar toda a documentação do Lumen no site oficial [Lumen website](https://lumen.laravel.com/docs).
+Você pode fazer a leitura da documentação completa do Lumen no site oficial: [Lumen website](https://lumen.laravel.com/docs).
 
 ## Contributing
 
