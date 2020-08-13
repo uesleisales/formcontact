@@ -1,9 +1,10 @@
 # Formulário de contato com envio de email
 
 ### Ferramentas utilizadas
-#### Framework Backend: Lumen/PHP PHP Version 7.3.5.
-#### FrontEnd: MaterializeCss, Jquery e HTML5.
-#### Banco de dados: Mysql.
+<h4>Framework Backend:</h4> Lumen/PHP PHP Version .
+<h4>FrontEnd:</h4> MaterializeCss, Jquery e HTML5.
+<h4>Banco de dados: Mysql.</h4>
+<h4>Versão do PHP: 7.3.5</h4>
 
 
 ## Instalação e dependências do Lumen
@@ -59,9 +60,10 @@ MAIL_ADDRESS =SEU ENDEREÇO DE EMAIL AQUI
 
 
 
-## Contributing
+## Resolução de erros de SSL (Em servidor local). 
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+É possível que durante a execução da rota de envio de email, que ocorra um erro parecido com "<b>cURL error 60: SSL certificate: unable to get local issuer certificate
+</b>". 
 
 ## Security Vulnerabilities
 
