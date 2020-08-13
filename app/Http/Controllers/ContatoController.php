@@ -20,7 +20,7 @@ class ContatoController extends Controller
         }
 
         $contato = ContatoService::store($request);
-        return $contato;
+        return view('contato.index')->with(['msg' => $contato['msg'], 'type' => $contato['type'] ]);
     }
 
 

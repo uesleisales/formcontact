@@ -8,6 +8,7 @@
         "php": "^7.2.5",
         "guzzlehttp/guzzle": "^7.0",
         "illuminate/mail": "^7.25",
+        "illuminate/session": "^7.25",
         "laravel/lumen-framework": "^7.0",
         "s-ichikawa/laravel-sendgrid-driver": "^3.0",
         "swiftmailer/swiftmailer": "^6.0"

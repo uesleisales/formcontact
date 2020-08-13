@@ -33,12 +33,12 @@ class ContatoService {
                 
                 send_mail($data,'email.teste', env('MAIL_ADDRESS_RECEIVE'),'Sistema', 'Formulário de contato');
                 DB::table('contato')->insert($data);
-                return redirect()->route('contato.site');
+                return ['msg' => 'Mensagem enviada com sucesso! Aguarde retorno.', 'type' => 'success'];
             } else {
-                return redirect()->route('contato.site');
+                return ['msg' => 'Falha ao enviar a mensagem!', 'type' => 'error'];
             }
         } else {
-            return redirect()->route('contato.site');
+            return ['msg' => 'Falha ao enviar a mensagem!', 'type' => 'error'];
         }
     }
     

@@ -19,6 +19,22 @@
         
     @endif
 
+
+    @if (isset($type) && isset($msg))
+        <div class="row">
+            <div class="col s12 m12 z-depth-4">
+                <div class="card-panel green accent-3 lighten-2">
+                    <ul>
+                        
+                        <li class="white-text">  {{ $msg }}</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    @endif
+
     <form action="{{ route('contato.submit') }}" method="POST" enctype="multipart/form-data" class="col s12 z-depth-4">
         <div class="row">
             <div class="col s6 offset-s3 ">
@@ -69,6 +85,8 @@
                     </div>
                     <div class="file-path-wrapper">
                         <input class="file-path validate" type="text">
+                        <span class="helper-text" >Formatos aceitos:<b>pdf, doc, docx, odt e txt.</b>  </span>
+
                     </div>
                 </div>
             </div>
