@@ -66,14 +66,14 @@ MAIL_ADDRESS =SEU ENDEREÇO DE EMAIL AQUI
 </b>". Para resolver esse erro, siga os passos abaixo (Sistema Operacional Windows):
 
 1. Baixe o certificado 'cacert.pem' clicando [aqui](https://curl.haxx.se/docs/caextract.html)
-2. Abra o seu arquivo .ini e adicione a seguinte linha (Não esqueça de adicionar o caminho de acordo com sua versão do PHP).
+2. Adicione o arquivo baixado na pasta: <b>\bin\php\php(Version)\extras\ssl\</b> 
+3. Abra o seu arquivo .ini e adicione a seguinte linha (Não esqueça de adicionar o caminho de acordo com sua versão do PHP).
 ```
 curl.cainfo = "C:\wamp64\bin\php\php(Version)\extras\ssl\cacert.pem"
 ```
 -  Para descobrir qual a versão do seu PHP, digite no seu terminal: 
 > php -v
-3.
-4.
+4. Reinicie o servidor, e pronto! Estará resolvido :)
 
 ## Security Vulnerabilities
 
