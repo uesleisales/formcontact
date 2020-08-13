@@ -62,7 +62,7 @@ MAIL_ADDRESS =SEU ENDEREÇO DE EMAIL AQUI
 
 ## Resolução de erros de SSL (Em servidor local). 
 
-É possível que durante a execução da rota de envio de email, que ocorra um erro parecido com "<b>cURL error 60: SSL certificate: unable to get local issuer certificate
+É possível que durante a execução da rota de envio de email, ocorra um erro parecido com "<b>cURL error 60: SSL certificate: unable to get local issuer certificate
 </b>". 
 
 ## Security Vulnerabilities
