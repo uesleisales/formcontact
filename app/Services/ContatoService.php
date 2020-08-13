@@ -30,14 +30,15 @@ class ContatoService {
                     'ip' => $request->ip(),
                     'created_at' => date("Y-m-d H:i:s")
                 ];
-        
-                DB::table('contato')->insert($data);
                 
+                send_mail($data,'email.teste', env('MAIL_ADDRESS_RECEIVE'),'Sistema', 'Formulário de contato');
+                DB::table('contato')->insert($data);
+                return redirect()->route('contato.site');
             } else {
-                return $this->responseRequestError('Cannot upload file');
+                return redirect()->route('contato.site');
             }
         } else {
-            return $this->responseRequestError('File not found');
+            return redirect()->route('contato.site');
         }
     }
     
@@ -50,7 +51,7 @@ class ContatoService {
             'email' => 'required|email:rfc,dns,filter|max:255',
             'tel'   => 'required',
             'msg'   => 'required|max:255',
-            'anexo' => 'required|max:500|mimes:jpeg,png,bmp,gif,svg'
+            'anexo' => 'required|max:500|mimes:pdf,doc,docx,odt,txt',
         ], ContatoService::messages());
 
         $validatedData->after(function ($validatedData) use ($request){

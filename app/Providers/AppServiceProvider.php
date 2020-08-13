@@ -15,4 +15,10 @@ class AppServiceProvider extends ServiceProvider
     {
         //
     }
+
+    public function boot(){
+       
+            require_once app()->path().'\Macros\Mail.php';
+        
+    }
 }

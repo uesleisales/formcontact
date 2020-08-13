@@ -23,15 +23,5 @@ class ContatoController extends Controller
         return $contato;
     }
 
-    public function email()
-    {
-        $data = ['teste data'];
-        \Illuminate\Support\Facades\Mail::send('email.teste', $data, function (\Illuminate\Mail\Message $message) {
-            $message
-                ->to('wesleijt10@gmail.com', 'foo_name')
-                ->from('wesleijt@hotmail.com', 'bar_name')
-                ->subject('Teste email');
-        });
 
-    }
 }
