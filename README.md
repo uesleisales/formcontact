@@ -1,10 +1,10 @@
 # Formulário de contato com envio de email
 
 ### Ferramentas utilizadas
-<b>Framework Backend:</b> Lumen/PHP PHP Version .
-<b>FrontEnd:</b> MaterializeCss, Jquery e HTML5.
-<b>Banco de dados:</b> Mysql.
-<b>Versão do PHP:</b> 7.3.5
+<p><b>Framework Backend:</b> Lumen/PHP. </p>
+<p><b>FrontEnd:</b> MaterializeCss, Jquery e HTML5.</p>
+<p><b>Banco de dados:</b> Mysql.</p>
+<p><b>Versão do PHP:</b> 7.3.5</p>
 
 
 ## Instalação e dependências do Lumen
