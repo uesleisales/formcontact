@@ -29,8 +29,8 @@ Altere os campos do arquivo .env para a configuração do banco local.
 
 ```
 DB_DATABASE=homestead      //Nome do banco de dados
-DB_USERNAME=homestead      //Nome de usuário do 
-DB_PASSWORD=secret         //Senha do banco (Caso não tenha, deixar em branco).
+DB_USERNAME=homestead      //Nome de usuário do banco de dados
+DB_PASSWORD=secret         //Senha do banco de dados (Caso não tenha, deixar em branco).
 
 ```
 
