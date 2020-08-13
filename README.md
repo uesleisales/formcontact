@@ -23,6 +23,17 @@ Na pasta do projeto rode o seguinte comando:
 composer install
 ```
 
+Altere o nome do arquivo ".env.example" para ".env" (Caso não exista um já criado). 
+
+Altere os campos do arquivo .env para a configuração do banco local.
+
+```
+DB_DATABASE=homestead      //Nome do banco de dados
+DB_USERNAME=homestead      //Nome de usuário do 
+DB_PASSWORD=secret         //Senha do banco (Caso não tenha, deixar em branco).
+
+```
+
 Após a instalação das dependências, inicie o servidor rodando o comando abaixo:
 ```
 php -S localhost:8000 -t public
