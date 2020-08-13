@@ -32,7 +32,7 @@ php -S localhost:8000 -t public
 
 Você pode fazer a leitura da documentação completa do Lumen no site oficial: [Lumen website](https://lumen.laravel.com/docs).
 
-#### Configuração do servidor de e-mail (Sendgrid)
+## Configuração do servidor de e-mail (Sendgrid)
 Para esse projeto em específico, foi utilizado o sendgrid como servidor para envios de emails. Contudo, existem outras opçõos disponíveis no mercado e que poderiam ser utilizados seguindo princípios parecidos.
 
 
