@@ -65,6 +65,11 @@ MAIL_ADDRESS =SEU ENDEREÇO DE EMAIL AQUI
 É possível que durante a execução da rota de envio de email, ocorra um erro parecido com "<b>cURL error 60: SSL certificate: unable to get local issuer certificate
 </b>". Para resolver esse erro, siga os passos abaixo (Sistema Operacional Windows):
 
+1.
+2.
+3.
+4.
+
 ## Security Vulnerabilities
 
 If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
