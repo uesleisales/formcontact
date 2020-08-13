@@ -35,6 +35,10 @@ Você pode fazer a leitura da documentação completa do Lumen no site oficial: 
 ## Configuração do servidor de e-mail (Sendgrid)
 Para esse projeto em específico, foi utilizado o sendgrid como servidor para envios de emails. Contudo, existem outras opçõos disponíveis no mercado e que poderiam ser utilizados seguindo princípios parecidos.
 
+#### Criação e configuração da API_KEY
+
+1. Acesse o [site](app.sendgrid.com), crie uma conta e gere uma nova API KEY (Guarde-a em um arquivo de texto para usar posteriormente).
+2. No painel de controle do Sendgrid, acesse : Settings > Sender Authentication e adicione um endereço de email que sera usado como remetente (Necessário ativar).
 
 
 ## Contributing
