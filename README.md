@@ -6,7 +6,15 @@
 #### Banco de dados: Mysql.
 
 
-## Official Documentation
+## Instalação do Lumen
+
+#### Requisitos do servidor
+A estrutura do Lumen tem alguns requisitos de sistema. Claro, todos esses requisitos são atendidos pela máquina virtual Laravel Homestead :
+
+- PHP> = 5.5.9
+- Extensão OpenSSL PHP
+- Extensão PHP Mbstring
+- Extensão Tokenizer PHP
 
 Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
 
