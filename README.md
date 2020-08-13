@@ -39,7 +39,7 @@ Para esse projeto em específico, foi utilizado o sendgrid como servidor para en
 
 1. Acesse o [site](app.sendgrid.com), crie uma conta e gere uma nova <b>API KEY</b> (Guarde-a em um arquivo de texto para usar posteriormente).
 2. No painel de controle do Sendgrid, acesse : <b>Settings</b> > <b>Sender Authentication</b> e adicione um endereço de email que será utilizado como remetente (Necessário ativar).
-3. Com a <b>API_KEY</b> em posse e com o email autenticando, configure o arquivo .env presente na raiz do projeto, adicionando as seguintes linhas: 
+3. Com a <b>API_KEY</b> em posse e com o email autenticando, configure o arquivo .env presente na raiz do projeto, adicionando as seguintes linhas(Preenchendo as informações que faltam): 
 ```
 MAIL_DRIVER=sendgrid
 SENDGRID_API_KEY=SUA API KEY AQUI
