@@ -38,7 +38,7 @@ Para esse projeto em específico, foi utilizado o sendgrid como servidor para en
 #### Criação e configuração da API_KEY
 
 1. Acesse o [site](app.sendgrid.com), crie uma conta e gere uma nova API KEY (Guarde-a em um arquivo de texto para usar posteriormente).
-2. No painel de controle do Sendgrid, acesse : Settings > Sender Authentication e adicione um endereço de email que sera usado como remetente (Necessário ativar).
+2. No painel de controle do Sendgrid, acesse : <b>Settings</b> > <b>Sender Authentication</b> e adicione um endereço de email que será utilizado como remetente (Necessário ativar).
 
 
 ## Contributing
