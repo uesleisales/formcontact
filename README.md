@@ -6,7 +6,7 @@
 #### Banco de dados: Mysql.
 
 
-## Instalação do Lumen
+## Instalação e dependências do Lumen
 
 #### Requisitos do servidor
 A estrutura do Lumen tem alguns requisitos de sistema. Claro, todos esses requisitos são atendidos pela máquina virtual Laravel Homestead :
@@ -23,15 +23,14 @@ Na pasta do projeto rode o seguinte comando:
 composer install
 ```
 
-Após a instalação das dependências, iniciei o servidor rodando o comando abaixo:
+Após a instalação das dependências, inicie o servidor rodando o comando abaixo:
 ```
 php -S localhost:8000 -t public
 ```
 
 Acessando <b>localhost:8000</b> você verá o projeto rodando.
 
-
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+Você poder verifacar toda a documentação do Lumen no site oficial [Lumen website](https://lumen.laravel.com/docs).
 
 ## Contributing
 
