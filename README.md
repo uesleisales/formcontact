@@ -16,6 +16,12 @@ A estrutura do Lumen tem alguns requisitos de sistema. Claro, todos esses requis
 - Extensão PHP Mbstring
 - Extensão Tokenizer PHP
 
+#### Instalação via composer
+
+```
+composer global require "laravel/lumen-installer=~1.0"
+```
+
 Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
 
 ## Contributing
